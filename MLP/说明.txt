@@ -1,0 +1,11 @@
+运行MLP.py即可查看结果
+
+functions.py：
+定义了常见的激活函数（如relu，sigmoid，tanh），常见的分类函数（sigmoid，softmax）
+常见的损失函数（交叉熵crossentropy，均方误差MSE）
+
+derivative.py：
+给出了反向传播时候常见激活函数的导数（relu，sigmoid，tanh）
+
+MLP：
+MLP算法的主体，测试数据采用数据集Fashion-MNIST，经30个epoch训练（约半小时），训练集准确率为81%，测试集准确率为80%。
